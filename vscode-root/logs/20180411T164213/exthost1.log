@@ -1,0 +1,22 @@
+[2018-04-11 16:42:15.237] [exthost1] [info] extension host started
+[2018-04-11 16:42:15.255] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-04-11 16:42:15.255] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-04-11 16:42:15.306] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-04-11 16:42:15.306] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-04-11 16:42:15.398] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-04-11 16:42:15.398] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-04-11 16:42:15.409] [exthost1] [info] eager extensions activated
+[2018-04-11 16:42:52.219] [exthost1] [info] extension host started
+[2018-04-11 16:42:52.255] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-04-11 16:42:52.255] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-04-11 16:42:52.330] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-04-11 16:42:52.330] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-04-11 16:42:52.442] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-04-11 16:42:52.442] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-04-11 16:42:52.457] [exthost1] [info] eager extensions activated
+[2018-04-11 16:43:05.966] [exthost1] [info] ExtensionService#_doActivateExtension vscode.php {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-04-11 16:43:05.966] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/php/out/phpMain
+[2018-04-11 16:43:28.958] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-04-11 16:43:28.958] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2018-04-11 16:43:28.974] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-04-11 16:43:28.974] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json/client/out/jsonMain
