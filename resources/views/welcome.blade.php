@@ -77,7 +77,7 @@
                 </div>
             @endif
 
-            <div class="content">
+            <!--<div class="content">
                 <div class="title m-b-md" style="font-size: 75px">
                     ONAT Science Works Management System
                 </div>
@@ -87,6 +87,16 @@
                     <a href="#">Staff</a>
                     <a href="#">Last Works</a>
                     <a href="#">Rules</a>                    
+                </div>
+            </div>-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="panel">
+                            @component('components.who')
+                            @endcomponent
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

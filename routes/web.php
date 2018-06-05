@@ -23,6 +23,7 @@ Route::get('/', function () {
 
 
 Auth::routes();
+Route::get('/logout', 'Auth\LoginController@logout')->name('logout' );
 
 Route::get('/signup', 'Auth\SignupController@showSignupForm')->name('signup');
 Route::post('/signup', 'Auth\SignupController@signup')->name('signup.submit');
@@ -31,6 +32,10 @@ Route::prefix('admin')->group(function() {
     Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
     Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');   
     Route::get('/', 'AdminController@getIndex')->name('admin.dashboard'); 
+});
+
+Route::prefix('get')->group(function() {
+    Route::resource('user_employees', 'User\EmployeeController');  
 });
 
 Route::get('/home', 'HomeController@index')->name('home');

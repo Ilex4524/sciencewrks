@@ -15,7 +15,7 @@
                             <label for="firstname" class="col-md-4 col-form-label text-md-right">{{ __('FirstName') }}</label>
 
                             <div class="col-md-6">
-                                <input id="firstname" type="text" class="form-control{{ $errors->has('firstname') ? ' is-invalid' : '' }}" firstname="firstname" value="{{ old('firstname') }}" required autofocus>
+                                <input id="firstname" type="text" class="form-control{{ $errors->has('firstname') ? ' is-invalid' : '' }}" name="firstname" value="{{ old('firstname') }}" required autofocus>
 
                                 @if ($errors->has('firstname'))
                                     <span class="invalid-feedback">
