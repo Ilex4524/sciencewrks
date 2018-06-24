@@ -15,7 +15,7 @@ class CreateResearchesTable extends Migration
     {
         Schema::create('researches', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name', 500);
+            $table->string('name', 200);
             $table->date('published_at');
             $table->decimal('size', 4, 2);
             $table->boolean('is_abroad')->default(false);

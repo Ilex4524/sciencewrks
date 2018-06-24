@@ -21,9 +21,9 @@ class CreateUsersTable extends Migration
             ->references('id')->on('department_employees')
             ->onDelete('cascade')->onUpdate('cascade'); 
 
-            $table->string('email')->unique();
+            $table->string('email', 50)->unique();
 
-            $table->string('password');
+            $table->string('password', 128);
 
             $table->rememberToken();
 

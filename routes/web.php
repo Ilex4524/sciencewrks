@@ -36,6 +36,8 @@ Route::prefix('admin')->group(function() {
 
 Route::prefix('get')->group(function() {
     Route::resource('user_employees', 'User\EmployeeController');  
+    Route::resource('researches', 'User\ResearchController'); 
+    Route::get('/researches/{id}/download', 'User\ResearchController@download')->name('researches.download');
 });
 
 Route::get('/home', 'HomeController@index')->name('home');

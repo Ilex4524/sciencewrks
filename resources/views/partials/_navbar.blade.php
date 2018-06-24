@@ -14,7 +14,7 @@
       <ul class="nav navbar-nav">
         <li class={{ Request::is('get/employees') ? "active" : "" }}><a href="{{route('user_employees.index')}}">Staff</a></li>
         <li class={{ Request::is('references') ? "active" : "" }}><a href="#">References</a></li>        
-        <li class={{ Request::is('researches') ? "active" : "" }}><a href="#">Researches</a></li>
+        <li class={{ Request::is('researches') ? "active" : "" }}><a href="{{route('researches.index')}}">Researches</a></li>
       </ul>
     @endif
     
